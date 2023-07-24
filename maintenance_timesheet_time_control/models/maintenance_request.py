@@ -33,3 +33,7 @@ class MaintenanceRequest(models.Model):
             }
         )
         return result
+
+    def refresh(self):
+        self.ensure_one()
+        return {"type": "ir.actions.act_view_reload"}
