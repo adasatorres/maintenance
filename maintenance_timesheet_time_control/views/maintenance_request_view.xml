@@ -30,11 +30,6 @@
                     attrs="{'invisible': [('show_time_control', '!=', 'stop')]}"
                     class="oe_stat_button"
                 />
-
-                <button name="reload_button" type="object" />
-
-
-
             </div>
         </field>
     </record>
